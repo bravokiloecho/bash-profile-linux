@@ -17,7 +17,7 @@ alias lsd='ls -lF ${colorflag} | grep "^d"' # only directories
 # GIT
 alias gs='git status'
 alias gc='git commit -m' # requires you to type a commit message
-alias gca='commit -am'
+alias gca='git commit -am'
 alias ga='git add -A :/ && git commit --amend --no-edit' # Amend previous commit with new changes
 alias gp='git push'
 alias gadd='git add -A :/'
