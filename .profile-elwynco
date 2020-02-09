@@ -43,10 +43,16 @@ alias code='codium'
 alias cod='codium .'
 
 ### Edit Hyper config
-alias cod='cd $HOME && codium .hyper.js'
+alias hyp='cd $HOME && codium .hyper.js'
 
-### Open bash profile in sublime
+### Restart KINTO
+alias kint='systemctl --user restart keyswap'
+
+### Open bash profile in codium
 alias basher='cd $HOME/repos/bash-profile-linux && codium .profile-elwynco'
+
+### Open git profile in codium
+alias gitter='codium $HOME/.gitconfig'
 
 
 ### Autocomplete SSH configs
